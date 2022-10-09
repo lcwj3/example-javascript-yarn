@@ -1,0 +1,377 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - console-io > join-io > minify > debug:
+        patched: '2022-10-09T17:51:33.607Z'
+    - console-io > mollify > minify > debug:
+        patched: '2022-10-09T17:51:33.607Z'
+    - console-io > join-io > ponse > debug:
+        patched: '2022-10-09T17:51:33.607Z'
+    - console-io > mollify > ponse > debug:
+        patched: '2022-10-09T17:51:33.607Z'
+    - nodejs-repo-tools > supertest > superagent > debug:
+        patched: '2022-10-09T17:51:33.607Z'
+    - console-io > join-io > minify > tomas > ischanged > debug:
+        patched: '2022-10-09T17:51:33.607Z'
+    - console-io > mollify > minify > tomas > ischanged > debug:
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > @google-cloud/common-grpc > grpc > node-pre-gyp > tar-pack > debug':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > google-gax > grpc > node-pre-gyp > tar-pack > debug':
+        patched: '2022-10-09T17:51:33.607Z'
+  'npm:extend:20180424':
+    - '@google-cloud/vision > extend':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > request > extend':
+        patched: '2022-10-09T17:51:33.607Z'
+    - nodejs-repo-tools > request > extend:
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > @google-cloud/common-grpc > extend':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > google-gax > extend':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > @google-cloud/common > request > extend':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > @google-cloud/common-grpc > @google-cloud/common > extend':
+        patched: '2022-10-09T17:51:33.607Z'
+    - nodejs-repo-tools > supertest > superagent > extend:
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > @google-cloud/common > google-auto-auth > request > extend':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > google-gax > google-auto-auth > request > extend':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > @google-cloud/common-grpc > @google-cloud/common > request > extend':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > @google-cloud/common-grpc > retry-request > request > extend':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > @google-cloud/common-grpc > @google-cloud/common > google-auto-auth > request > extend':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > @google-cloud/common-grpc > grpc > node-pre-gyp > request > extend':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > google-gax > grpc > node-pre-gyp > request > extend':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > @google-cloud/common > google-auto-auth > google-auth-library > request > extend':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > google-gax > google-auto-auth > google-auth-library > request > extend':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > @google-cloud/common-grpc > @google-cloud/common > retry-request > request > extend':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > @google-cloud/common > google-auto-auth > google-auth-library > gtoken > request > extend':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > google-gax > google-auto-auth > google-auth-library > gtoken > request > extend':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > @google-cloud/common-grpc > @google-cloud/common > google-auto-auth > google-auth-library > request > extend':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > @google-cloud/common-grpc > @google-cloud/common > google-auto-auth > google-auth-library > gtoken > request > extend':
+        patched: '2022-10-09T17:51:33.607Z'
+  'npm:hoek:20180212':
+    - boom > hoek:
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > request > hawk > hoek':
+        patched: '2022-10-09T17:51:33.607Z'
+    - nodejs-repo-tools > request > hawk > hoek:
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > request > hawk > boom > hoek':
+        patched: '2022-10-09T17:51:33.607Z'
+    - nodejs-repo-tools > request > hawk > boom > hoek:
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > request > hawk > sntp > hoek':
+        patched: '2022-10-09T17:51:33.607Z'
+    - nodejs-repo-tools > request > hawk > sntp > hoek:
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > @google-cloud/common > request > hawk > hoek':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > request > hawk > cryptiles > boom > hoek':
+        patched: '2022-10-09T17:51:33.607Z'
+    - nodejs-repo-tools > request > hawk > cryptiles > boom > hoek:
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > @google-cloud/common > request > hawk > boom > hoek':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > @google-cloud/common > request > hawk > sntp > hoek':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > @google-cloud/common > google-auto-auth > request > hawk > hoek':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > google-gax > google-auto-auth > request > hawk > hoek':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > @google-cloud/common-grpc > @google-cloud/common > request > hawk > hoek':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > @google-cloud/common > request > hawk > cryptiles > boom > hoek':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > @google-cloud/common > google-auto-auth > request > hawk > boom > hoek':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > google-gax > google-auto-auth > request > hawk > boom > hoek':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > @google-cloud/common-grpc > @google-cloud/common > request > hawk > boom > hoek':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > @google-cloud/common > google-auto-auth > request > hawk > sntp > hoek':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > google-gax > google-auto-auth > request > hawk > sntp > hoek':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > @google-cloud/common-grpc > @google-cloud/common > request > hawk > sntp > hoek':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > @google-cloud/common-grpc > @google-cloud/common > google-auto-auth > request > hawk > hoek':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > @google-cloud/common-grpc > grpc > node-pre-gyp > request > hawk > hoek':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > google-gax > grpc > node-pre-gyp > request > hawk > hoek':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > @google-cloud/common > google-auto-auth > google-auth-library > request > hawk > hoek':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > google-gax > google-auto-auth > google-auth-library > request > hawk > hoek':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > @google-cloud/common > google-auto-auth > request > hawk > cryptiles > boom > hoek':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > google-gax > google-auto-auth > request > hawk > cryptiles > boom > hoek':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > @google-cloud/common-grpc > @google-cloud/common > request > hawk > cryptiles > boom > hoek':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > @google-cloud/common-grpc > @google-cloud/common > google-auto-auth > request > hawk > boom > hoek':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > @google-cloud/common-grpc > grpc > node-pre-gyp > request > hawk > boom > hoek':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > google-gax > grpc > node-pre-gyp > request > hawk > boom > hoek':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > @google-cloud/common > google-auto-auth > google-auth-library > request > hawk > boom > hoek':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > google-gax > google-auto-auth > google-auth-library > request > hawk > boom > hoek':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > @google-cloud/common-grpc > @google-cloud/common > google-auto-auth > request > hawk > sntp > hoek':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > @google-cloud/common-grpc > grpc > node-pre-gyp > request > hawk > sntp > hoek':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > google-gax > grpc > node-pre-gyp > request > hawk > sntp > hoek':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > @google-cloud/common > google-auto-auth > google-auth-library > request > hawk > sntp > hoek':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > google-gax > google-auto-auth > google-auth-library > request > hawk > sntp > hoek':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > @google-cloud/common > google-auto-auth > google-auth-library > gtoken > request > hawk > hoek':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > google-gax > google-auto-auth > google-auth-library > gtoken > request > hawk > hoek':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > @google-cloud/common-grpc > @google-cloud/common > google-auto-auth > google-auth-library > request > hawk > hoek':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > @google-cloud/common-grpc > @google-cloud/common > google-auto-auth > request > hawk > cryptiles > boom > hoek':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > @google-cloud/common-grpc > grpc > node-pre-gyp > request > hawk > cryptiles > boom > hoek':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > google-gax > grpc > node-pre-gyp > request > hawk > cryptiles > boom > hoek':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > @google-cloud/common > google-auto-auth > google-auth-library > request > hawk > cryptiles > boom > hoek':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > google-gax > google-auto-auth > google-auth-library > request > hawk > cryptiles > boom > hoek':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > @google-cloud/common > google-auto-auth > google-auth-library > gtoken > request > hawk > boom > hoek':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > google-gax > google-auto-auth > google-auth-library > gtoken > request > hawk > boom > hoek':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > @google-cloud/common-grpc > @google-cloud/common > google-auto-auth > google-auth-library > request > hawk > boom > hoek':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > @google-cloud/common > google-auto-auth > google-auth-library > gtoken > request > hawk > sntp > hoek':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > google-gax > google-auto-auth > google-auth-library > gtoken > request > hawk > sntp > hoek':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > @google-cloud/common-grpc > @google-cloud/common > google-auto-auth > google-auth-library > request > hawk > sntp > hoek':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > @google-cloud/common-grpc > @google-cloud/common > google-auto-auth > google-auth-library > gtoken > request > hawk > hoek':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > @google-cloud/common > google-auto-auth > google-auth-library > gtoken > request > hawk > cryptiles > boom > hoek':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > google-gax > google-auto-auth > google-auth-library > gtoken > request > hawk > cryptiles > boom > hoek':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > @google-cloud/common-grpc > @google-cloud/common > google-auto-auth > google-auth-library > request > hawk > cryptiles > boom > hoek':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > @google-cloud/common-grpc > @google-cloud/common > google-auto-auth > google-auth-library > gtoken > request > hawk > boom > hoek':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > @google-cloud/common-grpc > @google-cloud/common > google-auto-auth > google-auth-library > gtoken > request > hawk > sntp > hoek':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > @google-cloud/common-grpc > @google-cloud/common > google-auto-auth > google-auth-library > gtoken > request > hawk > cryptiles > boom > hoek':
+        patched: '2022-10-09T17:51:33.607Z'
+  SNYK-JS-LODASH-567746:
+    - '@google-cloud/vision > async > lodash':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > google-gax > lodash':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > @google-cloud/common-grpc > grpc > lodash':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > google-gax > grpc > lodash':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > @google-cloud/common > google-auto-auth > async > lodash':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > google-gax > google-auto-auth > async > lodash':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > @google-cloud/common-grpc > @google-cloud/common > google-auto-auth > async > lodash':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > @google-cloud/common > google-auto-auth > google-auth-library > request > form-data > async > lodash':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > google-gax > google-auto-auth > google-auth-library > request > form-data > async > lodash':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > @google-cloud/common-grpc > @google-cloud/common > google-auto-auth > google-auth-library > request > form-data > async > lodash':
+        patched: '2022-10-09T17:51:33.607Z'
+  'npm:mime:20170907':
+    - nodejs-repo-tools > supertest > superagent > mime:
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > @google-cloud/common > google-auto-auth > google-auth-library > gtoken > mime':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > google-gax > google-auto-auth > google-auth-library > gtoken > mime':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > @google-cloud/common-grpc > @google-cloud/common > google-auto-auth > google-auth-library > gtoken > mime':
+        patched: '2022-10-09T17:51:33.607Z'
+  'npm:ms:20170412':
+    - console-io > join-io > minify > debug > ms:
+        patched: '2022-10-09T17:51:33.607Z'
+    - console-io > mollify > minify > debug > ms:
+        patched: '2022-10-09T17:51:33.607Z'
+    - console-io > join-io > ponse > debug > ms:
+        patched: '2022-10-09T17:51:33.607Z'
+    - console-io > mollify > ponse > debug > ms:
+        patched: '2022-10-09T17:51:33.607Z'
+    - nodejs-repo-tools > supertest > superagent > debug > ms:
+        patched: '2022-10-09T17:51:33.607Z'
+    - console-io > join-io > minify > tomas > ischanged > debug > ms:
+        patched: '2022-10-09T17:51:33.607Z'
+    - console-io > mollify > minify > tomas > ischanged > debug > ms:
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > @google-cloud/common-grpc > grpc > node-pre-gyp > tar-pack > debug > ms':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > google-gax > grpc > node-pre-gyp > tar-pack > debug > ms':
+        patched: '2022-10-09T17:51:33.607Z'
+  'npm:qs:20170213':
+    - '@google-cloud/vision > @google-cloud/common > google-auto-auth > google-auth-library > request > qs':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > google-gax > google-auto-auth > google-auth-library > request > qs':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > @google-cloud/common-grpc > @google-cloud/common > google-auto-auth > google-auth-library > request > qs':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > request > qs':
+        patched: '2022-10-09T17:51:33.607Z'
+    - nodejs-repo-tools > request > qs:
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > @google-cloud/common > request > qs':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > @google-cloud/common > google-auto-auth > request > qs':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > google-gax > google-auto-auth > request > qs':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > @google-cloud/common-grpc > @google-cloud/common > request > qs':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > @google-cloud/common-grpc > retry-request > request > qs':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > @google-cloud/common-grpc > @google-cloud/common > google-auto-auth > request > qs':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > @google-cloud/common-grpc > grpc > node-pre-gyp > request > qs':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > google-gax > grpc > node-pre-gyp > request > qs':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > @google-cloud/common-grpc > @google-cloud/common > retry-request > request > qs':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > @google-cloud/common > google-auto-auth > google-auth-library > gtoken > request > qs':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > google-gax > google-auto-auth > google-auth-library > gtoken > request > qs':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > @google-cloud/common-grpc > @google-cloud/common > google-auto-auth > google-auth-library > gtoken > request > qs':
+        patched: '2022-10-09T17:51:33.607Z'
+  'npm:stringstream:20180511':
+    - '@google-cloud/vision > request > stringstream':
+        patched: '2022-10-09T17:51:33.607Z'
+    - nodejs-repo-tools > request > stringstream:
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > @google-cloud/common > request > stringstream':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > @google-cloud/common > google-auto-auth > request > stringstream':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > google-gax > google-auto-auth > request > stringstream':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > @google-cloud/common-grpc > @google-cloud/common > request > stringstream':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > @google-cloud/common-grpc > retry-request > request > stringstream':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > @google-cloud/common-grpc > @google-cloud/common > google-auto-auth > request > stringstream':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > @google-cloud/common-grpc > grpc > node-pre-gyp > request > stringstream':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > google-gax > grpc > node-pre-gyp > request > stringstream':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > @google-cloud/common > google-auto-auth > google-auth-library > request > stringstream':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > google-gax > google-auto-auth > google-auth-library > request > stringstream':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > @google-cloud/common-grpc > @google-cloud/common > retry-request > request > stringstream':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > @google-cloud/common > google-auto-auth > google-auth-library > gtoken > request > stringstream':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > google-gax > google-auto-auth > google-auth-library > gtoken > request > stringstream':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > @google-cloud/common-grpc > @google-cloud/common > google-auto-auth > google-auth-library > request > stringstream':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > @google-cloud/common-grpc > @google-cloud/common > google-auto-auth > google-auth-library > gtoken > request > stringstream':
+        patched: '2022-10-09T17:51:33.607Z'
+  'npm:tough-cookie:20170905':
+    - '@google-cloud/vision > request > tough-cookie':
+        patched: '2022-10-09T17:51:33.607Z'
+    - nodejs-repo-tools > request > tough-cookie:
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > @google-cloud/common > request > tough-cookie':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > @google-cloud/common > google-auto-auth > request > tough-cookie':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > google-gax > google-auto-auth > request > tough-cookie':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > @google-cloud/common-grpc > @google-cloud/common > request > tough-cookie':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > @google-cloud/common-grpc > retry-request > request > tough-cookie':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > @google-cloud/common-grpc > @google-cloud/common > google-auto-auth > request > tough-cookie':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > @google-cloud/common-grpc > grpc > node-pre-gyp > request > tough-cookie':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > google-gax > grpc > node-pre-gyp > request > tough-cookie':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > @google-cloud/common > google-auto-auth > google-auth-library > request > tough-cookie':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > google-gax > google-auto-auth > google-auth-library > request > tough-cookie':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > @google-cloud/common-grpc > @google-cloud/common > retry-request > request > tough-cookie':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > @google-cloud/common > google-auto-auth > google-auth-library > gtoken > request > tough-cookie':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > google-gax > google-auto-auth > google-auth-library > gtoken > request > tough-cookie':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > @google-cloud/common-grpc > @google-cloud/common > google-auto-auth > google-auth-library > request > tough-cookie':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > @google-cloud/common-grpc > @google-cloud/common > google-auto-auth > google-auth-library > gtoken > request > tough-cookie':
+        patched: '2022-10-09T17:51:33.607Z'
+  'npm:tunnel-agent:20170305':
+    - '@google-cloud/vision > request > tunnel-agent':
+        patched: '2022-10-09T17:51:33.607Z'
+    - nodejs-repo-tools > request > tunnel-agent:
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > @google-cloud/common > request > tunnel-agent':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > @google-cloud/common > google-auto-auth > request > tunnel-agent':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > google-gax > google-auto-auth > request > tunnel-agent':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > @google-cloud/common-grpc > @google-cloud/common > request > tunnel-agent':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > @google-cloud/common-grpc > @google-cloud/common > google-auto-auth > request > tunnel-agent':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > @google-cloud/common-grpc > grpc > node-pre-gyp > request > tunnel-agent':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > google-gax > grpc > node-pre-gyp > request > tunnel-agent':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > @google-cloud/common > google-auto-auth > google-auth-library > request > tunnel-agent':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > google-gax > google-auto-auth > google-auth-library > request > tunnel-agent':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > @google-cloud/common > google-auto-auth > google-auth-library > gtoken > request > tunnel-agent':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > google-gax > google-auto-auth > google-auth-library > gtoken > request > tunnel-agent':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > @google-cloud/common-grpc > @google-cloud/common > google-auto-auth > google-auth-library > request > tunnel-agent':
+        patched: '2022-10-09T17:51:33.607Z'
+    - '@google-cloud/vision > @google-cloud/common-grpc > @google-cloud/common > google-auto-auth > google-auth-library > gtoken > request > tunnel-agent':
+        patched: '2022-10-09T17:51:33.607Z'
